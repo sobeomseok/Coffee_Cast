@@ -7,13 +7,20 @@
 
 import UIKit
 
+// MARK: - 로고 이미지
+extension UIImage {
+    static let CCLogo: UIImage = #imageLiteral(resourceName: "CCLogo")
+    
+}
+
+
 //MARK: - 색깔 확장
 extension UIColor {
-    static let color1 = UIColor(displayP3Red: 176, green: 176, blue: 176, alpha: 1)
-    static let color2 = UIColor(displayP3Red: 255, green: 36, blue: 65, alpha: 1)
-    static let color3 = UIColor(displayP3Red: 255, green: 255, blue: 255, alpha: 1)
-    static let color4 = UIColor(displayP3Red: 161, green: 74, blue: 85, alpha: 1)
-    static let color5 = UIColor(displayP3Red: 204, green: 204, blue: 204, alpha: 1)
+    static let CCGray = UIColor(displayP3Red: 176.0/255.0, green: 176.0/255.0, blue: 176.0/255.0, alpha: 1)
+    static let CCRed = UIColor(displayP3Red: 255.0/255.0, green: 36.0/255.0, blue: 65.0/255.0, alpha: 1)
+    static let CCWhite = UIColor(displayP3Red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1)
+    static let CCBurgundy = UIColor(displayP3Red: 161.0/255.0, green: 74.0/255.0, blue: 85.0/255.0, alpha: 1)
+    static let CCLightGray = UIColor(displayP3Red: 204.0/255.0, green: 204.0/255.0, blue: 204.0/255.0, alpha: 1)
 }
 
 //MARK: - 오토레이아웃 확장

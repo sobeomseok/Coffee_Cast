@@ -4,4 +4,5 @@ platform :ios, '9.0'
 target 'Coffee_Cast.' do
 
  pod 'lottie-ios'
+ pod 'Firebase/Auth'
 end
